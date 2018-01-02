@@ -11,23 +11,27 @@ sudo sh router.sh
 ```
 
 ## Installation
+Read [here](https://github.com/FluxionNetwork/fluxion/wiki/Generate-ssh-keys) before you do the following steps.
+<br>
+**Download the latest revision**
 ```
-git clone --recursive https://github.com/FluxionNetwork/fluxion.git # Download the latest revision
-cd fluxion # Switch to tool's directory
-./fluxion.sh # Run fluxion (missing dependencies will be auto-installed)
+git clone --recursive git@github.com:FluxionNetwork/fluxion.git 
 ```
-
-## :white_check_mark: Included dependency versions
-1. Aircrack : 1:1.2-0~rc4-0parrot0
-2. Lighttpd : 1.439-1
-3. Hostapd  : 1:2.3-2.3 _If you want to compare this type `dpkg -l | grep "name"`_
+**Switch to tool's directory**
+```
+cd fluxion 
+```
+**Run fluxion (missing dependencies will be auto-installed)**
+```
+./fluxion.sh
+```
 
 ## :scroll: Changelog
 Fluxion gets weekly updates with new features, improvements, and bugfixes.
 Be sure to check out the [changelog here](https://github.com/FluxionNetwork/fluxion/commits/master).
 
 ## :octocat: How to contribute
-All contributions are welcome! Code, documentation, graphics, or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it'll be appreciated!
+All contributions are welcome! Code, documentation, graphics, or even design suggestions are welcome; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it'll be appreciated but please follow the [style guide](https://github.com/FluxionNetwork/fluxion/wiki/Code-style-guide).
 
 ## :book: How it works
 * Scan for a target wireless network.
